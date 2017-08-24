@@ -10,7 +10,7 @@
   "author": "Roderick Hsiao",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive",
+    "test": "mocha lib --recursive",
     "lint": "eslint ."
   },
   "dependencies": {
