@@ -16,5 +16,31 @@ const className = 'C(#fff)';
 
 ## Options
 ```js
-string: 'upper' | 'lower'
+string: 'upper' | 'lower' (default `lower`)
+```
+
+### lower
+
+**legal**
+
+```js
+const className = 'Bgc(#fff)';
+```
+
+**illegal**
+```js
+const className = 'Bgc(#FFF)';
+```
+
+### upper
+
+**legal**
+
+```js
+const className = 'Bgc(#FFF)';
+```
+
+**illegal**
+```js
+const className = 'Bgc(#fff)';
 ```
