@@ -1,4 +1,4 @@
-const rule = require('../../../lib/rules/no-direct-color');
+const rule = require('../../../lib/rules/color-no-hex');
 const RuleTester = require('eslint').RuleTester;
 
 RuleTester.setDefaultConfig({
@@ -12,7 +12,7 @@ RuleTester.setDefaultConfig({
 });
 const ruleTester = new RuleTester();
 
-ruleTester.run('no-direct-color', rule, {
+ruleTester.run('color-no-hex', rule, {
   valid: [
     { code: 'const a = "C($red)";' },
     {
@@ -24,6 +24,10 @@ ruleTester.run('no-direct-color', rule, {
     },
     {
       code: '<Component className="Bgc($red)" />'
+    },
+    {
+      code: '<Component className="C(#fff.4)" />',
+      options: ['always', ['#fff']]
     },
     {
       code: '<Component className="C(#fff.4)" />',

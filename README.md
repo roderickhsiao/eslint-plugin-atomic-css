@@ -1,6 +1,6 @@
 # eslint-plugin-atomic-css
 
-ESLint plugin for Atomic CSS
+ESLint plugin for Atomic CSS, this is greatly inspire by (Stylelint)[https://github.com/stylelint/stylelint]
 
 ## Installation
 
@@ -44,8 +44,3 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * Fill in provided rules here
-
-
-
-
-
