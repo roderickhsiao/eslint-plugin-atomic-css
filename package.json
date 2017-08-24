@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-atomic-css",
+  "version": "0.0.0",
+  "description": "ESLint plugin for Atomic CSS",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Roderick Hsiao",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "atomizer": "^3.4.5",
+    "jsx-ast-utils": "^2.0.0",
+    "lodash": "^4.17.4",
+    "requireindex": "^1.1.0",
+    "xregexp": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "mocha": "^3.5.0"
+  },
+  "license": "ISC"
+}
