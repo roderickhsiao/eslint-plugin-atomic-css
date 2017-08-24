@@ -10,7 +10,8 @@
   "author": "Roderick Hsiao",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "lint": "eslint ."
   },
   "dependencies": {
     "atomizer": "^3.4.5",
@@ -21,7 +22,15 @@
   },
   "devDependencies": {
     "eslint": "^3.9.1",
-    "mocha": "^3.5.0"
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0",
+    "pre-commit": "^1.2.2"
   },
-  "license": "ISC"
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "license": "MIT"
 }
