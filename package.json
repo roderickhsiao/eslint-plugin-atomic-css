@@ -7,7 +7,7 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Roderick Hsiao",
+  "author": "Roderick Hsiao <roderickhsiao@gmail.com>",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha lib --recursive",
@@ -21,11 +21,11 @@
     "xregexp": "^3.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-plugin-import": "^2.7.0",
-    "mocha": "^3.5.0",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1",
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
