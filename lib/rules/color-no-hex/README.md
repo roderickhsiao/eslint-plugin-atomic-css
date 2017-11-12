@@ -1,6 +1,6 @@
 # color-no-hex
 
-Disallow hex colors.
+Disallow hex colors, enforce color defined as variable
 
 Use [custom variable](https://acss.io/guides/syntax.html#variable-values) for colors instead of hex color.
 

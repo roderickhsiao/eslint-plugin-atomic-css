@@ -2,6 +2,8 @@
 
 Specify lowercase or uppercase for hex colors.
 
+**Default**: lower case
+
 ```js
 /**
  * Uppercase hex
@@ -16,7 +18,7 @@ const className = 'C(#fff)';
 
 ## Options
 ```js
-string: 'upper' | 'lower' (default `lower`)
+string: 'upper' | 'lower' (default 'lower')
 ```
 
 ### lower
